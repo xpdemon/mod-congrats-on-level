@@ -260,6 +260,10 @@ public:
                     case LOCALE_enUS:
                     case LOCALE_koKR:
                     case LOCALE_frFR:
+                     {
+                        ss << "|cffFFFFFF[ |cffFF0000C|cffFFA500O|cffFFFF00N|cff00FF00G|cff00FFFFR|cff6A5ACDA|cffFF00FFT|cff98FB98S|cffFF0000! |cffFFFFFF] : |cff4CFF00 " << player->GetName() << " |cffFFFFFFa atteint |cff4CFF00le niveau " << level << "|cffFFFFFF!";
+                        break;
+                     }
                     case LOCALE_deDE:
                     case LOCALE_zhCN:
                     case LOCALE_zhTW:
@@ -285,6 +289,10 @@ public:
                     case LOCALE_enUS:
                     case LOCALE_koKR:
                     case LOCALE_frFR:
+                     {
+                        ss2 << "Félicitation pour le gain de votre niveau " << level << " " << player->GetName() << "! Vous avez été récompensé " << money << " or et quelques trésors!";
+                        break;
+                     }
                     case LOCALE_deDE:
                     case LOCALE_zhCN:
                     case LOCALE_zhTW:
